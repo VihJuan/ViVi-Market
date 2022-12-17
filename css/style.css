@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body{
+    
+
+    
+
+}
+
+.cab{
+    background-color: rgb(202, 107, 174);
+    width: 100%; height: 130px;
+    border-bottom: 5px solid purple ;
+    
+
+}
+
+
+.titulo{
+    color: purple;
+    position: relative;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: purple;
+    position: relative;
+    left: 150px;
+    bottom: 80px;
+    margin-left: 60px;
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu a:hover{
+    border-top: 5px solid purple;
+}
+
+.entrega{
+    position: relative;
+left: 750px;
+
+}
+
+.home{
+    position: relative;
+    bottom:395px;
+width: 50%;
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+
+.final{
+    background-color: rgb(202, 107, 174);
+    width: 100%; height: 130px;
+    border-top: 5px solid purple;
+}
+
+.tex{
+    font-size: 20px;
+flex-flow: row wrap;
+text-align: center;
+}
+
+
+.imgcon{
+    position: relative;
+    margin-left: 400px;
+    flex-flow: row wrap;
+    left: 80px;
+}
+
+.texcon{
+    position: relative;
+    right: 450px;
+    width: 30%;
+    bottom: 780px;
+    font-size: 30px;
+}
+
+.banhetex{
+    position: relative;
+    font-size: 30px;
+    width: 40%;
+    left: 700px;
+    bottom: 700px;
+}
+
+.texquar{
+    position: relative;
+    font-size: 30px;
+    width: 40%;
+    left: 700px;
+    bottom: 350px;
+}
+
+.salatex{
+    position: relative;
+    font-size: 30px;
+    width: 40%;
+    left: 700px;
+    bottom: 350px;
+}
+
+.sobre{
+    margin-top: 400px;
+    position: relative;
+}
+
+.imglogin{
+position: relative;
+left: 350px;
+}
+.texlogin{
+    position: relative;
+    left: 80px;
+}
+
+
+@media (max-width:600px){
+    .cab{
+        width: 100%;
+    }
+    .menu{
+        width: 20%;
+        display: inline;
+        position: relative;
+        text-align: right;
+        right:50px;
+        
+        
+    }
+}
